@@ -1,0 +1,57 @@
+.main-menu{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 40px;
+	padding: 0px;
+	border-bottom: black 2px solid;
+}
+a{
+	text-decoration: none;
+}
+li{
+	background: white;
+	list-style: none;
+	color: black;
+	transition: all 0.2s ease-out;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+li:hover{
+	transition: all 0.2s ease-out;
+	transform: scale(1.05);
+}
+.picture{
+	background-image: url(images/showcase.jpg);
+	background-position: center;
+	height:400px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+h2{
+	text-align: center;
+}
+.footer{
+	border-top: 2px black solid;
+	height: 30px;
+}
+p{
+	margin-left: 90px;
+	margin-right: 90px;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+h3{
+	text-align: center;
+}
+h3{
+	color: black;
+}
